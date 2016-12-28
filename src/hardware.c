@@ -107,6 +107,10 @@
       next 2 bytes are for codec type */
 #define SCO_CODEC_PARAM_SIZE                    3
 
+#ifdef SAMSUNG_BLUETOOTH
+#define CID_PATH "/data/.cid.info"
+#endif
+
 /******************************************************************************
 **  Local type definitions
 ******************************************************************************/
